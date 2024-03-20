@@ -1,0 +1,27 @@
+.hotel-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hotel-container {
+  position: relative;
+}
+
+.hotel-bg {
+  background-color: #2274e0;
+  height: 300px;
+  width: 60%;
+  border-radius: 0% 0% 80% 55%;
+  position: absolute;
+  z-index: -1;
+}
+
+.hotel-heading{
+  color: white;
+}
+
+.hotel-sub-container {
+  position: absolute;
+  margin-left: 120px;
+}
